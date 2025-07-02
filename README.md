@@ -2,18 +2,18 @@
 
 ## Problem Statement
 
-Imagine you're working with Sprint, one of the biggest telecom companies in the USA. They're really keen on figuring out how many customers might decide to leave them in the coming months. 
-Luckily, they've got a bunch of past data about when customers have left before, as well as info about who these customers are, what they've bought, and other things like that.
+Imagine you are working with Sprint, one of the biggest telecom companies in the USA. They're really keen on figuring out how many customers might decide to leave them in the coming months. 
+Luckily, they have a bunch of past data about when customers have left, as well as info about who these customers are, what they've bought, and other things like that.
 
 We used the dataset from Kaggle [https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets] for the classification models.
-We also settled on Random Forest and XGBoost classifiers to classifiy whether customers would leave or not.
+We also settled on Random Forest and XGBoost classifiers to classify whether customers would leave or not.
 
 **Data fields**
-* State: string. 2-letter code of the US state of customer residence
+* State: string. 2-letter code of the US state of the customer's residence
 * Account length: numerical. Number of months the customer has been with the current telco provider
-* Area code: numerical 3 digit area code.
-* International plan: (yes/no). The customer has international plan.
-* Voice mail plan: (yes/no). The customer has voice mail plan.
+* Area code: a numerical 3-digit area code.
+* International plan: (yes/no). The customer has an international plan.
+* Voice mail plan: (yes/no). The customer has a voicemail plan.
 * Number vmail messages: numerical. Number of voice-mail messages.
 * Total day minutes: numerical. Total minutes of day calls.
 * Total day calls: numerical. Total number of day calls.
